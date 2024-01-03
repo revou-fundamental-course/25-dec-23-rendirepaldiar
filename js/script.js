@@ -29,33 +29,3 @@ function kelilingtriangle() {
   alert(keliling);
   console.log(keliling);
 }
-function calculatejajargenjang() {
-  const alas = document.getElementById("alas-jajargenjang").value;
-  const tinggi = document.getElementById("high-jajargenjang").value;
-  const kolom1 = document.getElementById("Luas_Jajargenjang1");
-  const kolom2 = document.getElementById("Luas_Jajargenjang2");
-  const kolom3 = document.getElementById("Luas_Jajargenjang3");
-  const luas = alas * tinggi;
-  const Luas_Jajargenjang = document.getElementById("Luas_Jajargenjang");
-  kolom1.innerHTML = "L = a x t";
-  kolom2.innerHTML = "L = " + alas + " x " + tinggi;
-  kolom3.innerHTML = "L = " + luas + " cm2";
-  alert("Luas Jajargenjang = " + luas + " cm2");
-  console.log(luas);
-}
-function kelilingjajargenjang() {
-  const sisi1 = document.getElementById("sisi_jj1").value;
-  const sisi2 = document.getElementById("sisi_jj2").value;
-  const kolom1 = document.getElementById("keliling_jajargenjang1");
-  const kolom2 = document.getElementById("keliling_jajargenjang2");
-  const kolom3 = document.getElementById("keliling_jajargenjang3");
-  const keliling = (Number(sisi1) + Number(sisi2)) * 2;
-  const keliling_jajargenjang = document.getElementById(
-    "keliling_jajargenjang"
-  );
-  kolom1.innerHTML = "K = 2 x (s1 + s2)";
-  kolom2.innerHTML = "K = 2 x (" + sisi1 + " + " + sisi2 + ")";
-  kolom3.innerHTML = "K = " + keliling + " cm";
-  alert(keliling);
-  console.log(keliling);
-}
